@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p, a {
+    text-decoration: none;
+    user-select: none;
+}
+
+html {
+    padding: 20vh 0;
+}
+
+/* Define grid areas */
+.content {
+    grid-area: work;
+    padding: 2rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: ". work .";
+    grid-template-columns: 9.375rem 1fr 9.375rem;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        grid-template-areas: "work";
+        grid-template-columns: 100%;
+        grid-template-rows: auto 1fr auto;
+    }
+}
