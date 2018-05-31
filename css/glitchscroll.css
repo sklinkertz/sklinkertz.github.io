@@ -63,6 +63,10 @@ section:nth-child(5) .image__top, section:nth-child(5) .image__bottom, section:n
 }
 
 section:nth-child(6) .image__top, section:nth-child(6) .image__bottom, section:nth-child(6) .image__inner {
+    background-image: url("https://picsum.photos/841");
+}
+
+section:nth-child(7) .image__top, section:nth-child(7) .image__bottom, section:nth-child(7) .image__inner {
     background-image: url("https://picsum.photos/805/605?image=1032");
 }
 
@@ -149,9 +153,43 @@ section:nth-child(6) .image__top, section:nth-child(6) .image__bottom, section:n
     background-color: #fc644d;
 }
 
+.text ul {
+    list-style-type: none;
+    width: auto;
+}
+
+.text ul li {
+    float: center;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.text ul li img {
+    display: block;
+    width: auto;
+    height: 30px;
+}
+
 @media screen and (max-width: 480px) {
     .text__subtitle {
         font-size: 6vmin;
+    }
+
+    .text ul li img {
+        width: auto;
+        height: 20px;
+    }
+
+    .text ul {
+        width: 60vw;
+    }
+
+    .text ul li {
+        float: center;
+        display: inline-block;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 }
 
@@ -159,10 +197,28 @@ section:nth-child(6) .image__top, section:nth-child(6) .image__bottom, section:n
     .text__subtitle {
         font-size: 5vmin;
     }
+
+    .text ul {
+        width: 70vw;
+    }
+
+    .text ul li img {
+        width: auto;
+        height: 30px;
+    }
 }
 
 @media screen and (min-width: 721px) {
     .text__subtitle {
         font-size: 4vmin;
+    }
+
+    .text ul {
+        width: 40vw;
+    }
+
+    .text ul li img {
+        width: auto;
+        height: 35px;
     }
 }
