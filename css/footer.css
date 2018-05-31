@@ -1,0 +1,19 @@
+footer {
+    font-family: 'Megrim', cursive;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+footer a {
+    cursor: pointer;
+    margin-left: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    background-color: #fc644d;
+    color: #fff;
+}
+
