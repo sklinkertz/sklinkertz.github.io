@@ -19,7 +19,7 @@
     outline: none;
     position: absolute;
     top: 50%;
-    left: calc(50vw - 47vmin);
+    left: 20px;
     cursor: pointer;
     height: 4vmin;
     width: 4vmin;
@@ -29,12 +29,12 @@
 }
 
 .stripe .next {
-    transform: translateY(50%);
+    transform: translateY(70%);
     border-top: none;
 }
 
 .stripe .prev {
-    transform: translateY(-140%);
+    transform: translateY(-170%);
 }
 
 section {
@@ -171,18 +171,18 @@ section:nth-child(7) .image__top, section:nth-child(7) .image__bottom, section:n
     height: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .text__subtitle {
         font-size: 6vmin;
     }
 
     .text ul {
-        width: 70vw;
+        width: 75vw;
     }
 
     .text ul li img {
         width: auto;
-        height: 30px;
+        height: 40px;
     }
 }
 
@@ -218,7 +218,7 @@ section:nth-child(7) .image__top, section:nth-child(7) .image__bottom, section:n
     }
 
     .text ul {
-        width: 50vw;
+        width: 40vw;
     }
 
     .text ul li img {
