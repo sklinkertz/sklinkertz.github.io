@@ -134,7 +134,6 @@ section:nth-child(6) .image__top, section:nth-child(6) .image__bottom, section:n
 
 .text__subtitle {
     margin-top: 3vh;
-    font-size: 2vmin;
     letter-spacing: 0.1em;
     font-weight: 200;
     font-family: 'Megrim', cursive;
@@ -148,4 +147,22 @@ section:nth-child(6) .image__top, section:nth-child(6) .image__bottom, section:n
 
 .text__subtitle a:hover {
     background-color: #fc644d;
+}
+
+@media screen and (max-width: 480px) {
+    .text__subtitle {
+        font-size: 6vmin;
+    }
+}
+
+@media screen and (min-width: 481px) and  (max-width: 720px) {
+    .text__subtitle {
+        font-size: 5vmin;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    .text__subtitle {
+        font-size: 4vmin;
+    }
 }
