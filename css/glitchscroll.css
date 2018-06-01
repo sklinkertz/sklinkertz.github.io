@@ -47,11 +47,11 @@ section:nth-child(1) .image__top, section:nth-child(1) .image__bottom, section:n
 }
 
 section:nth-child(2) .image__top, section:nth-child(2) .image__bottom, section:nth-child(2) .image__inner {
-    background-image: url("https://picsum.photos/802/602?image=208");
+    background-image: url("https://picsum.photos/803/603?image=630");
 }
 
 section:nth-child(3) .image__top, section:nth-child(3) .image__bottom, section:nth-child(3) .image__inner {
-    background-image: url("https://picsum.photos/803/603?image=608");
+    background-image: url("https://picsum.photos/803/603?image=677");
 }
 
 section:nth-child(4) .image__top, section:nth-child(4) .image__bottom, section:nth-child(4) .image__inner {
@@ -63,11 +63,27 @@ section:nth-child(5) .image__top, section:nth-child(5) .image__bottom, section:n
 }
 
 section:nth-child(6) .image__top, section:nth-child(6) .image__bottom, section:nth-child(6) .image__inner {
-    background-image: url("https://picsum.photos/841");
+    background-image: url("https://picsum.photos/966");
 }
 
+/* Partner */
 section:nth-child(7) .image__top, section:nth-child(7) .image__bottom, section:nth-child(7) .image__inner {
     background-image: url("https://picsum.photos/805/605?image=1032");
+}
+
+section:nth-child(8) .image__top, section:nth-child(8) .image__bottom, section:nth-child(8) .image__inner {
+    background-image: url("https://picsum.photos/1064");
+}
+
+section:nth-child(9) video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 80vmin;
+    height: 60vmin;
+    margin-top: 4rem;
+    transition: -webkit-transform 1000ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .image {
@@ -212,7 +228,7 @@ section:nth-child(7) .image__top, section:nth-child(7) .image__bottom, section:n
     }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1281px){
+@media screen and (min-width: 721px) and (max-width: 1281px) {
     .text__subtitle {
         font-size: 4vmin;
     }

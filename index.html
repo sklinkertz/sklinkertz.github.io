@@ -16,9 +16,11 @@
 
   <meta charset="UTF-8">
   <title>klinkewhoop</title>
+  <meta name="viewport" content="initial-scale=1.0">
   <meta name="description" content="Website von Simon Klinkertz">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
@@ -133,6 +135,33 @@
         </div>
       </div>
     </section>
+    <section>
+      <div class="image">
+        <div class="image__top"></div>
+        <div class="image__stretch">
+          <div class="image__inner"></div>
+        </div>
+        <div class="image__bottom"></div>
+      </div>
+      <div class="text">
+        <span class="text__word" id="word">Partner</span>
+        <ul class="text__subtitle">
+          <li><img src="images/partner/eva-berten.png" alt="Eva Berten"></li>
+          <li><img src="images/partner/timm-fleissgarten.png" alt="Timm Fleissgarten"></li>
+          <li><img src="images/partner/philipp-reinhard.png" alt="Philipp Reinhard"></li>
+          <li><img src="images/partner/arthur-naculchanov.png" alt="Arthur Naculchanov"></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <video autoplay loop id="video-background" muted plays-inline>
+        <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761"
+                type="video/mp4">
+      </video>
+      <div class="text">
+        <span class="text__word" id="word">Showreel</span>
+      </div>
+    </section>
 
     <div class="stripe" id="stripe">
       <button class="prev" id="prev">-</button>
@@ -141,7 +170,7 @@
   </main>
 
   <footer>
-    <a href="impressum.html">Impressum</a>
+    <a href="impressum.html" class="impressum">Impressum</a>
     <a href="https://www.instagram.com/klinkewhoop/" target="_blank">Instagram</a>
     <a href="https://www.xing.com/profile/Simon_Klinkertz/cv?sc_o=mxb_p" target="_blank">xing</a>
   </footer>
