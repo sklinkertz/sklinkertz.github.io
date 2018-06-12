@@ -43,36 +43,36 @@ section {
 }
 
 section:nth-child(1) .image__top, section:nth-child(1) .image__bottom, section:nth-child(1) .image__inner {
-    background-image: url("https://picsum.photos/801/601?image=321");
+    background-image: url("../images/backgrounds/website.jpg");
 }
 
 section:nth-child(2) .image__top, section:nth-child(2) .image__bottom, section:nth-child(2) .image__inner {
-    background-image: url("https://picsum.photos/803/603?image=630");
+    background-image: url("../images/backgrounds/since.jpg");
 }
 
 section:nth-child(3) .image__top, section:nth-child(3) .image__bottom, section:nth-child(3) .image__inner {
-    background-image: url("https://picsum.photos/803/603?image=677");
+    background-image: url("../images/backgrounds/where.jpg");
 }
 
 section:nth-child(4) .image__top, section:nth-child(4) .image__bottom, section:nth-child(4) .image__inner {
-    background-image: url("https://picsum.photos/803/603?image=565");
+    background-image: url("../images/backgrounds/motivation.jpg");
 }
 
 section:nth-child(5) .image__top, section:nth-child(5) .image__bottom, section:nth-child(5) .image__inner {
-    background-image: url("https://picsum.photos/804/604?image=218");
+    background-image: url("../images/backgrounds/experience.jpg");
 }
 
 section:nth-child(6) .image__top, section:nth-child(6) .image__bottom, section:nth-child(6) .image__inner {
-    background-image: url("https://picsum.photos/966");
+    background-image: url("../images/backgrounds/clients.jpg");
 }
 
 /* Partner */
 section:nth-child(7) .image__top, section:nth-child(7) .image__bottom, section:nth-child(7) .image__inner {
-    background-image: url("https://picsum.photos/805/605?image=1032");
+    background-image: url("../images/backgrounds/contact.jpg");
 }
 
 section:nth-child(8) .image__top, section:nth-child(8) .image__bottom, section:nth-child(8) .image__inner {
-    background-image: url("https://picsum.photos/1064");
+    background-image: url("../images/backgrounds/partner.jpg");
 }
 
 section:nth-child(9) video {
@@ -228,7 +228,7 @@ section:nth-child(9) video {
     }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1281px) {
+@media screen and (min-width: 721px) and (max-width: 1925px) {
     .text__subtitle {
         font-size: 4vmin;
     }
