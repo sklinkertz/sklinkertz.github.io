@@ -19,13 +19,49 @@
     outline: none;
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: 20rem;
     cursor: pointer;
-    height: 4vmin;
-    width: 4vmin;
-    font-size: 2vmin;
+    height: 5vmin;
+    width: 5vmin;
+    font-size: 3vmin;
     border: none;
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .stripe .next, .stripe .prev {
+        left: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and  (max-width: 600px) {
+    .stripe .next, .stripe .prev {
+        left: 1rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 720px) {
+    .stripe .next, .stripe .prev {
+        left: 6%;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 920px) {
+    .stripe .next, .stripe .prev {
+        left: 13%;
+    }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1010px) {
+    .stripe .next, .stripe .prev {
+        left: 14%;
+    }
+}
+
+@media screen and (min-width: 1011px) and (max-width: 1925px) {
+    .stripe .next, .stripe .prev {
+        left: 22%;
+    }
 }
 
 .stripe .next {

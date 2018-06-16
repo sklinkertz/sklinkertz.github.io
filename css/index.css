@@ -23,7 +23,7 @@ html {
 
 footer {
     grid-area: foot;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .wrapper {
