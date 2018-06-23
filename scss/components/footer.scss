@@ -1,10 +1,10 @@
 footer {
-  font-family: 'Megrim', cursive;
+  font-family: $font-cursive;
   position: fixed;
   bottom: 0;
   right: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: $white-100;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -21,7 +21,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #fc644d;
+  color: $red-100;
 }
 
 @media screen and (min-width: 319px) and  (max-width: 720px) {
