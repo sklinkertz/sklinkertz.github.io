@@ -15,20 +15,20 @@ html {
     padding: 18vh 0;
 }
 
-/* Define grid areas */
+/* DEFINITION of grid areas */
 .content {
-    grid-area: work;
+    grid-area: 🍔;
     padding: 2rem;
 }
 
 footer {
-    grid-area: foot;
+    grid-area: 🍒;
     padding: 1rem;
 }
 
 .wrapper {
     display: grid;
-    grid-template-areas: ". work ." ". foot .";
+    grid-template-areas: ". 🍔 ." ". 🍒 .";
     grid-template-columns: 9.375rem 1fr 9.375rem;
     grid-template-rows: auto auto auto;
     min-height: 100vh;
@@ -36,7 +36,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     .wrapper {
-        grid-template-areas: "work" "foot";
+        grid-template-areas: "🍔" "🍒";
         grid-template-columns: 100%;
         grid-template-rows: auto 1fr auto;
     }
