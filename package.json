@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "uglify": "uglifyjs js/*.js > js/script.min.js",
+    "whoop": "npm run build-css && npm run uglify"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,8 @@
   },
   "homepage": "https://github.com/sklinkertz/sklinkertz.github.io#readme",
   "dependencies": {
-    "sassysass": "^1.3.1"
+    "sassysass": "^1.3.1",
+    "uglify-js": "^3.4.1"
   },
   "devDependencies": {
     "node-sass": "^4.9.0",
