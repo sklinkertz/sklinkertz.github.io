@@ -1,0 +1,44 @@
+// Media queries
+// --------------------------------------
+// $screen-xlarge: 1925px;
+// $screen-1000: 1010px;
+// $screen-900: 920px;
+// $screen-700: 710px;
+// $screen-600: 600px;
+// $screen-500: 480px;
+
+@mixin desktop-large {
+  @media screen and (min-width: $screen-1000 + 1) and (max-width: $screen-xlarge) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $screen-900 + 1) and (max-width: $screen-1000) {
+    @content;
+  }
+}
+
+@mixin desktop-min {
+  @media screen and (min-width: $screen-700 + 1) and (max-width: $screen-900) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $screen-600 + 1) and (max-width: $screen-700) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (min-width: $screen-500 + 1) and (max-width: $screen-600) {
+    @content;
+  }
+}
+
+@mixin mobile-small {
+  @media screen and (min-width: $body-min-width) and (max-width: $screen-500) {
+    @content;
+  }
+}

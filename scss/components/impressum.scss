@@ -1,17 +1,17 @@
 .impressum p {
   color: $black-100;
   font-family: $font-normal;
-}
 
-.impressum h1 {
-  text-align: center;
-  font-family: $font-normal;
-  margin-bottom: 4rem;
-  color: $white-100;
-  background-color: $red-100;
-}
+  h1 {
+    text-align: center;
+    font-family: $font-normal;
+    margin-bottom: 4rem;
+    color: $white-100;
+    background-color: $red-100;
+  }
 
-.impressum a {
-  text-decoration: underline;
-  color: $black-100;
+  a {
+    text-decoration: underline;
+    color: $black-100;
+  }
 }
