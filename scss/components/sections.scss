@@ -26,7 +26,7 @@ section {
   &:nth-child(6) .image__top, &:nth-child(6) .image__bottom, &:nth-child(6) .image__inner {
     background-image: url("../../images/backgrounds/clients.jpg");
   }
-  
+
   &:nth-child(7) .image__top, &:nth-child(7) .image__bottom, &:nth-child(7) .image__inner {
     background-image: url("../../images/backgrounds/contact.jpg");
   }
@@ -42,6 +42,7 @@ section {
     transform: translate3d(-$half-percentage, -$half-percentage, 0);
     width: 80vmin;
     height: 60vmin;
+    z-index: 2;
     margin-top: $space-base * 4;
     transition: -webkit-transform 1000ms cubic-bezier(0.77, 0, 0.175, 1);
   }
