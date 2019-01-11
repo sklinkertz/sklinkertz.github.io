@@ -12,6 +12,10 @@ a {
     user-select: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 html {
     padding: 18vh 0;
 }
