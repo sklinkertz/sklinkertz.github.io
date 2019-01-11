@@ -429,10 +429,6 @@ footer a:hover {
    height: 90px;
 }
 
-.container {
-    padding: 0;
-}
-
 .container .row {
     margin: 0;
     width: 750px;
