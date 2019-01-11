@@ -430,7 +430,6 @@ footer a:hover {
 }
 
 .container {
-    width: 750px;
     padding: 0;
 }
 
@@ -453,7 +452,7 @@ footer a:hover {
 
 @media (max-width: 768px) {
     .container {
-        width: 620px;
+        width: 666px;
     }
 }
 
