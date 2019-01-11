@@ -416,10 +416,12 @@ footer a:hover {
 
 
 /* CLIENT SLIDER */
+.slick-slide {
+   height: 150px;
+}
 
-img {
-    width: 150px;
-    padding: 5px;
+.slick-slide img {
+    width: 100%;
 }
 
 .container {
