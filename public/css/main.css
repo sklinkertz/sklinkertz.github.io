@@ -461,12 +461,12 @@ footer a:hover {
 
 @media (min-width: 768px) {
     .container {
-        width: 652px;
+        width: 745px;
     }
 }
 
-@media (max-width: 650px) {
+@media (min-width: 650px) {
     .container {
-        width: 500px;
+        width: 652px;
     }
 }
