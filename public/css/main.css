@@ -429,6 +429,10 @@ footer a:hover {
    height: 90px;
 }
 
+.container {
+    overflow: hidden;
+}
+
 .container .row {
     margin: 0;
     width: 750px;
