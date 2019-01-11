@@ -361,9 +361,13 @@ footer.left {
 }
 
 footer.right {
-    right: -5%;
+    right: 0%;
     top: 90px;
     transform: rotate(90deg);
+}
+
+footer a:hover {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
