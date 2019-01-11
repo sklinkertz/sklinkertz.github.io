@@ -426,7 +426,7 @@ footer a:hover {
 
 .slick-slide {
    height: 90px;
-   width: 110px;
+   width: 110px !important;
 }
 
 .slick-slide img {
