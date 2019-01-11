@@ -420,6 +420,10 @@ footer a:hover {
 
 
 /* CLIENT SLIDER */
+.slick-slider {
+    left: -15px;
+}
+
 .slick-slide {
    height: 90px;
    width: 110px;
