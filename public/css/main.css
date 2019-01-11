@@ -430,6 +430,7 @@ footer a:hover {
 
 .container .row {
     margin: 0;
+    width: 750px;
 }
 
 .col-md-12 {
