@@ -429,6 +429,11 @@ footer a:hover {
    height: 90px;
 }
 
+.col-md-12 {
+    padding: 0;
+    width: 100%;
+}
+
 .container {
     overflow: hidden;
 }
