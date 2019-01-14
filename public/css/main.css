@@ -420,6 +420,10 @@ footer a:hover {
 
 
 /* CLIENT SLIDER */
+.slick-slide {
+    margin: 0 5px;
+}
+
 .slick-slide, .slick-slide img {
    height: 90px;
    width: 110px !important;
@@ -437,6 +441,6 @@ footer a:hover {
 
 @media (min-width: 1200px) {
     .container {
-        width: 753px;
+        width: 755px;
     }
 }
