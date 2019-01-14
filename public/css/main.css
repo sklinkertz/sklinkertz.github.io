@@ -437,10 +437,6 @@ footer a:hover {
 .container {
     overflow: hidden;
     padding: 0;
-}
+    width: 748px;
 
-@media (min-width: 1200px) {
-    .container {
-        width: 748px;
-    }
 }
