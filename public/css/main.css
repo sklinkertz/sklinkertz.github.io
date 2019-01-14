@@ -437,22 +437,5 @@ footer a:hover {
 .container {
     overflow: hidden;
     padding: 0;
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 748px;
-    }
-}
-
-@media (min-width: 990px) {
-    .container {
-        width: 748px;
-    }
-}
-
-@media (min-width: 830px) {
-    .container {
-        width: 665px;
-    }
+    position: relative;
 }
