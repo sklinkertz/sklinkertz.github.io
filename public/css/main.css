@@ -420,17 +420,9 @@ footer a:hover {
 
 
 /* CLIENT SLIDER */
-.slick-slider {
-    left: -15px;
-}
-
-.slick-slide {
+.slick-slide, .slick-slide img {
    height: 90px;
    width: 110px !important;
-}
-
-.slick-slide img {
-   height: 90px;
 }
 
 .col-md-12 {
@@ -440,33 +432,11 @@ footer a:hover {
 
 .container {
     overflow: hidden;
-}
-
-.container .row {
-    margin: 0;
-    width: 750px;
+    padding: 0;
 }
 
 @media (min-width: 1200px) {
     .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 745px;
-    }
-}
-
-@media (min-width: 650px) {
-    .container {
-        width: 652px;
+        width: 753px;
     }
 }
