@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url(../../slick/slick.css);
+@import url(../../slick/slick-theme.css);
 * {
     box-sizing: border-box;
     margin: 0;
@@ -163,7 +165,6 @@ section:nth-child(9) video {
 
 
 /* SECTION Typography */
-
 .text {
     position: absolute;
     text-align: center;
@@ -421,27 +422,32 @@ footer a:hover {
     color: #000;
 }
 
-
 /* CLIENT SLIDER */
-.row {
-    margin: 0;
+.slider {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 80vmin;
+    overflow: hidden;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 2;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 0;
+    color: white;
+    cursor: default;
+    user-select: none;
+    font-weight: 700;
+    line-height: 0.9;
 }
 
 .slick-slide {
-    margin: 0 5px;
+    width: 240px !important;
 }
 
-.slick-slide, .slick-slide img {
-   height: 90px;
-   width: 110px !important;
-}
 
-.col-md-12 {
-    padding: 0;
-    width: 100%;
-}
-
-.container {
-    padding: 0;
-    width: 100%;
+.slick-slide img {
+    width: 200px;
+    height: 150px;
 }
