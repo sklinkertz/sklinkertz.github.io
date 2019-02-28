@@ -18,12 +18,10 @@
     <title>Simon Klinkertz</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta name="description" content="Website and Portfolio by Simon Klinkertz">
-    <meta name="keywords" content="Portfolio, Simon Klinkertz, klinkewhoop, filmmaker, Website">
+    <meta name="keywords" content="Portfolio, Simon Klinkertz, klinkewhoop, filmmaker, Website, Portfolio, Düsseldorf">
     <meta name="author" content="Simon Klinkertz">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
     <link href="public/css/main.css" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -103,17 +101,18 @@
                 <div class="slider">
                     <h2 class="text__word" id="word">CLIENTS</h2>
                     <div class="single-item">
-                        <div><img src="images/clients/reell-min.png" alt="REELL"></div>
-                        <div><img src="images/clients/ecko-min.png" alt="ECKO"></div>
-                        <div><img src="images/clients/adidas-min.png" alt="ADIDAS"></div>
-                        <div><img src="images/clients/foodora-min.png" alt="FOODORA"></div>
-                        <div><img src="images/clients/titus-min.png" alt="TITUS"></div>
-                        <div><img src="images/clients/newera-min.png" alt="NEW ERA"></div>
-                        <div><img src="images/clients/circa-min.png" alt="CIRCA"></div>
-                        <div><img src="images/clients/emillion-min.png" alt="EMILLION"></div>
-                        <div><img src="images/clients/amd-min.png" alt="AMD"></div>
-                        <div><img src="images/clients/fdi-min.png" alt="FDI"></div>
-                        <div><img src="images/clients/yamato-min.png" alt="YAMATO"></div>
+                        <div><a href="https://www.reelljeans.com/de" target="_blank"><img src="images/clients/reell-min.png" alt="REELL"></a></div>
+                        <div><a href="https://www.ecko.com/" target="_blank"><img src="images/clients/ecko-min.png" alt="ECKO"></a></div>
+                        <div><a href="https://www.adidas.de/skateboarden" target="_blank"><img src="images/clients/adidas-min.png" alt="ADIDAS"></a></div>
+                        <div><a href="https://www.foodora.de/" target="_blank"><img src="images/clients/foodora-min.png" alt="FOODORA"></a></div>
+                        <div><a href="https://www.titus.de/" target="_blank"><img src="images/clients/titus-min.png" alt="TITUS"></a></div>
+                        <div><a href="https://www1.wdr.de/index.html" target="_blank"><img src="images/clients/wdr-min.png" alt="WDR"></a></div>
+                        <div><a href="https://www.neweracap.eu/de-de/" target="_blank"><img src="images/clients/newera-min.png" alt="NEW ERA"></a></div>
+                        <div><a href="https://www.c1rca.com/" target="_blank"><img src="images/clients/circa-min.png" alt="CIRCA"></a></div>
+                        <div><a href="https://www.emillionfamily.com/" target="_blank"><img src="images/clients/emillion-min.png" alt="EMILLION"></a></div>
+                        <div><a href="https://www.amdnet.de/" target="_blank"><img src="images/clients/amd-min.png" alt="AMD"></a></div>
+                        <div><a href="https://www.fashion-design-institut.com/de/" target="_blank"><img src="images/clients/fdi-min.png" alt="FDI"></a></div>
+                        <div><a href="https://www.yamatoramps.de/" target="_blank"><img src="images/clients/yamato-min.png" alt="YAMATO"></a></div>
                     </div>
                 </div>
             </section>
@@ -143,7 +142,7 @@
                 <div class="text">
                     <h2 class="text__word" id="word">Contact</h2>
                     <div class="text__subtitle">
-                        <a href="mailto:klinkertzsimon@gmail.com" target="_blank">Text</a>
+                        <a href="mailto:klinkertzsimon@gmail.com?subject=Anfrage%20zum%20Kennenlernen&amp;body=Hey%20Simon,%0D%0A%0D%0Aich%20ein%20paar%20Fragen%20bzgl.%20deiner%20bisherigen%20Erfahrung.%0D%0A%0D%0AViele%20Grüße%20und%20bis%20dahin" target="_blank">Text</a>
                         <a href="tel:+4915787416048" target="_blank">Call</a>
                     </div>
                 </div>
@@ -168,7 +167,17 @@
     <script src="js/script.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-       $('.single-item').slick();
+       $('.single-item').slick({
+           slidesToShow: 1, 
+           slidesToScroll: 1,
+           autoplay: true,
+           cssEase: 'cubic-bezier(0.300, 0.025, 0.660, 0.970)',           
+           autoplaySpeed: 950,
+           infinite: true,
+           swipeToSlide: true,
+           variableWidth: true,
+           useTransform: true,
+       });
     });
     </script>
 </body>
