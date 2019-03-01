@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+http://www.simonklinkertz.com/* http://www.simonklinkertz.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://simonklinkertz.netlify.com/* http://www.simonklinkertz.com/:splat 301!
